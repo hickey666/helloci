@@ -6,7 +6,7 @@ jobs:
   helloci-build:
     name: Test with go ${{ matrix.go-version }} on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
-    enviroment:
+    environment:
       name: helloci
 
     strategy:
